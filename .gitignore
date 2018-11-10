@@ -1,14 +1,27 @@
-# Compiled class file
-*.class
+.gradle
+build/
+logs/
+temp/
 
-# Log file
-*.log
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+/out/
 
-# BlueJ files
-*.ctxt
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
+# Ignore Gradle GUI config
+gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!gradle-wrapper.jar
 
 # Package Files #
 *.jar
